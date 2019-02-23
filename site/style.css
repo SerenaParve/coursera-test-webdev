@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    float: center;
+}
+
+.content {
+    width: 25%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    margin: 20px;
+    background-color: ivory;
+    
+
+}
+
+.title {
+    border: 1px solid black;
+    clear: right;
+    float: right;
+    background-color: crimson;
+    width: 75px;
+    height: 20px;
+    color: white;
+
+}
+
+@media
