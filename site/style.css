@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 h1 {
@@ -38,9 +39,21 @@ h1 {
     position: absolute;
     top: 0px;
     right: 0px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    
     font-size: 20px;
     text-align: center;
+}
+
+#t1 {
+    background-color: lightslategray;
+}
+
+#t2 {
+    background-color: indigo;
+}
+
+#t3 {
+    background-color: crimson;
 }
 
 /*******Large Devices Only********/
