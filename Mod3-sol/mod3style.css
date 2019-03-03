@@ -1,0 +1,172 @@
+body {
+    font-size: 16px;
+    color: #2e3830;
+    background-color: #e6dbc9;
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+/******Header******/
+
+#header-nav {
+    background-color: #e6dbc9;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    height: 150px;
+   padding-top: 60px;
+    
+}
+
+.navbar-brand h1 {
+    font-weight: bold;
+    font-family: 'Rancho', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #61122f;
+    color: #2e3830;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button {
+    margin-top: 60px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #2e3830;
+    
+} 
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .icon-bar:hover {
+	background-color: #a48f6d;
+}
+
+/*
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+*/
+
+#nav-list {
+    margin-top:10px;
+}
+
+#nav-list a:active, #nav-list a:hover{
+    background: #a48f6d;
+}
+
+#collapsable-nav a{
+    text-align: center;
+    font-size: 35px;
+}
+
+.collapse .navbar-collapse {
+    background-color: #c3b399;
+}
+
+/********BODY********/
+
+body {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #ffffff;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+#chicken-title, #beef-title, #sushi-title {
+    color: #791700;
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+/******Footer******/
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #2e3830;
+    color: #e6dbc9;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address, {
+    line-height: 2;
+}
+
+#hours > span, #address > span {
+    font-size: 1.3em;
+    color: #c3b399;
+}
+
+#address p {
+    font-size: 0.8em;
+    color: #a48f6d;
+    line-height: 1.8em;
+}
+
+#testimonials > p {
+    font-size: 1em;
+    line-height: 1.3em;
+    color: #ffffff;
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+
+/******Extra small devices only******/
+
+@media (max-width:767px) {
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .panel-footer section hr {
+        width: 50%;
+    }
+}
