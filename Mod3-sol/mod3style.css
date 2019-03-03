@@ -55,6 +55,10 @@ body {
 	background-color: #a48f6d;
 }
 
+.navbar-default .navbar-nav > .open {
+    background-color: #c3b399;
+}
+
 /*
 .navbar-header button.navbar-toggle {
     clear: both;
@@ -112,6 +116,11 @@ h1 {
     font-size: 2em;
     margin-bottom: 20px;
 
+}
+
+#chicken-title > a:hover, #beef-title > a:hover, #sushi-title > a:hover {
+    text-decoration: none;
+    color: indigo;
 }
 
 /******Footer******/
